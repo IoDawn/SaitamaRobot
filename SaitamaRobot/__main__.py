@@ -72,13 +72,13 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
-I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities!
+I am bot for management group.
+Built by weebs for weebs, I specialize in managing group!
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a bot For Fun and help admins manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -222,7 +222,6 @@ def start(update: Update, context: CallbackContext):
                                 text="☑️ Add me",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
-                                ),
                             ),
                         ],
                         [
@@ -231,8 +230,8 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                text="🔔 Contact",
+                                url="https://t.me/fadess22",
                             ),
                         ],
                         [
@@ -240,9 +239,8 @@ def start(update: Update, context: CallbackContext):
                                 text="🧾 Getting Started",
                                 url="https://t.me/OnePunchUpdates/29",
                             ),
-                            InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                         
+        
                             ),
                         ],
                         [
