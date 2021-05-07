@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hey hi {}, I'm {}!
-I am bot for management group.
+I am bot for manage any group.
 Built by weebs for weebs, I specialize in managing group!
 """
 
